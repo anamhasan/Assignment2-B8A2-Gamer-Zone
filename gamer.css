@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+.container {
+height: 6rem;
+width: 100%;
+align-items: center;
+justify-content: space-between;
+}
+.nav{
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+}
+.items{
+    list-style: none;
+    padding-right: 1rem;
+}
+.g {
+    color:#FF42A5;
+}
+.gamer { 
+    font-size: 2rem;   
+    font-weight: 800;
+}
+.frame {
+    width: 4rem;
+    height: 2rem;
+    /* padding-top: 2rem; */
+    padding-right: 1rem; 
+    padding-left: 14rem;
+}
+.frame1 {
+    width: 2rem;
+    height: 2rem;
+    padding-left: 1rem;
+}
+.frame2 {
+    width: 2.2rem;
+    height: 2rem;
+    padding-left: .5rem;
+}
+
+.follow {
+    background-color: rgba(11, 2, 35, 0.10);
+    border-radius: .5rem;
+    width: 15rem;
+    height: 3rem;
+    align-items: center;
+    /* text-align: center; */
+    justify-content:center;
+    margin-right: 8rem;
+}
+
+.play-like {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.play {
+    background-image: url('./images/Group\ 14.png');
+    width: 45rem;
+    height:40rem;
+    text-align: left;
+    padding-left: 10rem;
+    padding-top: 10rem;
+}
+.play-like-the {
+    color: #0B0223;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.goat {
+    font-size: 5rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.line {
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+}
+.btn {
+    display: flex;
+    padding-top: 2.5rem;
+}
+.sign-in {
+    background-color: #FF42A5;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 4rem;
+    width: 8rem;
+    border-radius:5rem ;
+    border: none;
+}
+
+.go-rogue {
+    background-color: #4EC5F7;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 4rem;
+    width: 10rem;
+    border-radius:5rem ;
+    border: none;
+}
+
+.triple{
+    padding-right: 6rem;
+}
