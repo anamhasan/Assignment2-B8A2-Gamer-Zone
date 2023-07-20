@@ -1,6 +1,7 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding:0rem;
+    ;
 }
 
 body {
@@ -218,6 +219,10 @@ justify-content: space-between;
     height: 40%;
 }
 
+.game-list{
+    padding-top: 8rem;
+}
+
 .img3 {
     position: relative;
     margin-top: -12rem;
@@ -230,10 +235,9 @@ justify-content: space-between;
     border-radius: 3rem;
     background: white;
     gap: 1rem;
-    width: 15rem;
-    height: 7rem;
+    width: 16rem;
+    height: 4rem;
     align-items: center;
-    justify-content: center;
     cursor: pointer;
 }
 .row{
@@ -248,5 +252,60 @@ justify-content: space-between;
     padding-left: 16rem;
     padding-right: 10rem;
     list-style: none;
-} 
+}
+.footer-container {
+    background-color: #0B0223;
+    height: 30rem;
+    color: white;
+    margin-top: 5rem;
+    /* text-align: center;     */
+}
+.white {
+    color: white;
+}
+.list2 {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 35rem;
+    padding-right: 35rem;
+}
+
+.footer-head {
+    display: flex;
+    padding-left: 32rem;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+
+}
+.footer-icon {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-left: 40rem;
+    padding-right: 40rem;
+}
+
+.list3 {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: .85rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-left: 30rem;
+    padding-right: 30rem;
+}
+
+.list4 {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: .85rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-left: 40rem;
+    padding-right: 40rem;
+    
+}
+
 
