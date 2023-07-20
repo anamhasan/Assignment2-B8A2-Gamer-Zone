@@ -201,3 +201,52 @@ justify-content: space-between;
     text-align: left;
     width: 20%;
 }
+
+.size {
+    font-size: 2.7rem;
+    font-weight: 800;
+}
+
+.we-online {
+    padding-right: 12rem;
+    padding-left: 14rem;
+    padding-top: 10rem;
+    text-align: left;
+    /* align-content:center; */
+    align-items: center;
+    position: relative;
+    height: 40%;
+}
+
+.img3 {
+    position: relative;
+    margin-top: -12rem;
+    margin-left: 45rem;
+    width: 30%;
+}
+
+.games {
+    display: flex;
+    border-radius: 3rem;
+    background: white;
+    gap: 1rem;
+    width: 15rem;
+    height: 7rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.row{
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+}
+
+.four1 {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 16rem;
+    padding-right: 10rem;
+    list-style: none;
+} 
+
